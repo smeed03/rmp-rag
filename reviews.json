@@ -1,125 +1,218 @@
-{
-    "reviews": [
-      {
-        "professor": "Dr. Emily Carter",
-        "subject": "Physics",
-        "stars": 5,
-        "review": "Excellent professor! Makes difficult concepts easy to understand."
-      },
-      {
-        "professor": "Dr. John Smith",
-        "subject": "Mathematics",
-        "stars": 4,
-        "review": "Great lecturer, but the exams are tough."
-      },
-      {
-        "professor": "Dr. Sarah Johnson",
-        "subject": "Chemistry",
-        "stars": 3,
-        "review": "Good professor, but sometimes goes too fast."
-      },
-      {
-        "professor": "Dr. Michael Brown",
-        "subject": "History",
-        "stars": 5,
-        "review": "Passionate about the subject, very engaging lectures."
-      },
-      {
-        "professor": "Dr. Linda Davis",
-        "subject": "Biology",
-        "stars": 2,
-        "review": "Not very approachable, but the material is interesting."
-      },
-      {
-        "professor": "Dr. Robert Wilson",
-        "subject": "Computer Science",
-        "stars": 4,
-        "review": "Knowledgeable and helpful, but assignments are challenging."
-      },
-      {
-        "professor": "Dr. Jennifer Martinez",
-        "subject": "English Literature",
-        "stars": 5,
-        "review": "Incredible professor! Makes literature come alive."
-      },
-      {
-        "professor": "Dr. William Garcia",
-        "subject": "Political Science",
-        "stars": 3,
-        "review": "Interesting lectures, but grading is strict."
-      },
-      {
-        "professor": "Dr. Jessica Anderson",
-        "subject": "Psychology",
-        "stars": 5,
-        "review": "Very supportive and insightful, highly recommend."
-      },
-      {
-        "professor": "Dr. David Lee",
-        "subject": "Philosophy",
-        "stars": 4,
-        "review": "Challenging but rewarding, encourages deep thinking."
-      },
-      {
-        "professor": "Dr. Elizabeth Hernandez",
-        "subject": "Sociology",
-        "stars": 3,
-        "review": "Good content, but lectures can be monotonous."
-      },
-      {
-        "professor": "Dr. Christopher Clark",
-        "subject": "Economics",
-        "stars": 4,
-        "review": "Solid professor, makes economics interesting."
-      },
-      {
-        "professor": "Dr. Patricia Lewis",
-        "subject": "Art History",
-        "stars": 5,
-        "review": "Wonderful professor with deep knowledge of the subject."
-      },
-      {
-        "professor": "Dr. Joseph Walker",
-        "subject": "Music Theory",
-        "stars": 4,
-        "review": "Engaging and knowledgeable, but workload is heavy."
-      },
-      {
-        "professor": "Dr. Karen Young",
-        "subject": "Environmental Science",
-        "stars": 3,
-        "review": "Content is relevant, but lectures are sometimes dull."
-      },
-      {
-        "professor": "Dr. Richard King",
-        "subject": "Business Administration",
-        "stars": 5,
-        "review": "Excellent at explaining real-world applications."
-      },
-      {
-        "professor": "Dr. Susan Allen",
-        "subject": "Anthropology",
-        "stars": 4,
-        "review": "Very informative, but could use more interactive sessions."
-      },
-      {
-        "professor": "Dr. Charles Wright",
-        "subject": "Engineering",
-        "stars": 3,
-        "review": "Challenging material, but professor is helpful."
-      },
-      {
-        "professor": "Dr. Barbara Scott",
-        "subject": "Statistics",
-        "stars": 4,
-        "review": "Makes statistics understandable, but the pace is quick."
-      },
-      {
-        "professor": "Dr. Steven Green",
-        "subject": "Astronomy",
-        "stars": 5,
-        "review": "Incredibly passionate and knowledgeable about astronomy."
-      }
-    ]
-  }
-  
+[
+    {
+        "name": "Minda Lynch",
+        "department": "Psychology",
+        "school": "University of Maryland, Baltimore County",
+        "quality_rating": "4.8",
+        "num_ratings": "4 ratings",
+        "would_take_again": "N/A",
+        "difficulty": "3.3"
+    },
+    {
+        "name": "Dan Maselko",
+        "department": "Computer Science",
+        "school": "University of Maryland, Baltimore County",
+        "quality_rating": "5.0",
+        "num_ratings": "3 ratings",
+        "would_take_again": "100%",
+        "difficulty": "3.3"
+    },
+    {
+        "name": "Sung-Jin Kim",
+        "department": "Engineering",
+        "school": "University of Maryland, Baltimore County",
+        "quality_rating": "0.0",
+        "num_ratings": "0 ratings",
+        "would_take_again": "N/A",
+        "difficulty": "0"
+    },
+    {
+        "name": "Seth LeJacq",
+        "department": "History",
+        "school": "University of Maryland, Baltimore County",
+        "quality_rating": "5.0",
+        "num_ratings": "1 ratings",
+        "would_take_again": "100%",
+        "difficulty": "2"
+    },
+    {
+        "name": "Jianwu Wang",
+        "department": "Information Systems",
+        "school": "University of Maryland, Baltimore County",
+        "quality_rating": "3.9",
+        "num_ratings": "4 ratings",
+        "would_take_again": "100%",
+        "difficulty": "4.3"
+    },
+    {
+        "name": "Anna Smoot",
+        "department": "Japanese",
+        "school": "University of Maryland, Baltimore County",
+        "quality_rating": "4.7",
+        "num_ratings": "3 ratings",
+        "would_take_again": "100%",
+        "difficulty": "2.7"
+    },
+    {
+        "name": "Lasson Elliot",
+        "department": "Psychology",
+        "school": "University of Maryland, Baltimore County",
+        "quality_rating": "3.0",
+        "num_ratings": "3 ratings",
+        "would_take_again": "50%",
+        "difficulty": "4.4"
+    },
+    {
+        "name": "Kathleen Buckley",
+        "department": "Nursing",
+        "school": "University of Maryland, Baltimore County",
+        "quality_rating": "3.8",
+        "num_ratings": "3 ratings",
+        "would_take_again": "N/A",
+        "difficulty": "2.3"
+    },
+    {
+        "name": "June Hargrove",
+        "department": "Art History",
+        "school": "University of Maryland",
+        "quality_rating": "2.8",
+        "num_ratings": "13 ratings",
+        "would_take_again": "N/A",
+        "difficulty": "3.7"
+    },
+    {
+        "name": "Ravenna Komar",
+        "department": "English",
+        "school": "University of Maryland",
+        "quality_rating": "5.0",
+        "num_ratings": "4 ratings",
+        "would_take_again": "100%",
+        "difficulty": "3.3"
+    },
+    {
+        "name": "Julia Shadur",
+        "department": "Psychology",
+        "school": "University of Maryland",
+        "quality_rating": "4.0",
+        "num_ratings": "1 ratings",
+        "would_take_again": "100%",
+        "difficulty": "1"
+    },
+    {
+        "name": "Annie Laurie Nichols",
+        "department": "Communication",
+        "school": "University of Maryland",
+        "quality_rating": "5.0",
+        "num_ratings": "1 ratings",
+        "would_take_again": "100%",
+        "difficulty": "3"
+    },
+    {
+        "name": "Anna Goodson",
+        "department": "English Language & Literature",
+        "school": "University of Maryland",
+        "quality_rating": "0.0",
+        "num_ratings": "0 ratings",
+        "would_take_again": "N/A",
+        "difficulty": "0"
+    },
+    {
+        "name": "Lindsay Bernal",
+        "department": "English",
+        "school": "University of Maryland",
+        "quality_rating": "2.6",
+        "num_ratings": "8 ratings",
+        "would_take_again": "34%",
+        "difficulty": "3"
+    },
+    {
+        "name": "Ted Plettner",
+        "department": "Government",
+        "school": "University of Maryland",
+        "quality_rating": "4.0",
+        "num_ratings": "3 ratings",
+        "would_take_again": "34%",
+        "difficulty": "2.7"
+    },
+    {
+        "name": "Nicholas Roussopoulos",
+        "department": "Computer Science",
+        "school": "University of Maryland",
+        "quality_rating": "0.0",
+        "num_ratings": "0 ratings",
+        "would_take_again": "N/A",
+        "difficulty": "0"
+    },
+    {
+        "name": "Keith Inman",
+        "department": "Chemistry",
+        "school": "Towson University",
+        "quality_rating": "4.4",
+        "num_ratings": "4 ratings",
+        "would_take_again": "N/A",
+        "difficulty": "1.8"
+    },
+    {
+        "name": "Natalie Ferrone",
+        "department": "Physics",
+        "school": "Towson University",
+        "quality_rating": "5.0",
+        "num_ratings": "2 ratings",
+        "would_take_again": "100%",
+        "difficulty": "2.5"
+    },
+    {
+        "name": "Caleb Kortokrax",
+        "department": "Art",
+        "school": "Towson University",
+        "quality_rating": "5.0",
+        "num_ratings": "1 ratings",
+        "would_take_again": "100%",
+        "difficulty": "2"
+    },
+    {
+        "name": "Susannah Porterfield",
+        "department": "Business",
+        "school": "Towson University",
+        "quality_rating": "5.0",
+        "num_ratings": "1 ratings",
+        "would_take_again": "100%",
+        "difficulty": "2"
+    },
+    {
+        "name": "Les Potter",
+        "department": "Writing",
+        "school": "Towson University",
+        "quality_rating": "4.7",
+        "num_ratings": "67 ratings",
+        "would_take_again": "100%",
+        "difficulty": "2.6"
+    },
+    {
+        "name": "Dena Gassner",
+        "department": "Special Education",
+        "school": "Towson University",
+        "quality_rating": "0.0",
+        "num_ratings": "0 ratings",
+        "would_take_again": "N/A",
+        "difficulty": "0"
+    },
+    {
+        "name": "Owen Litt",
+        "department": "Physics",
+        "school": "Towson University",
+        "quality_rating": "2.5",
+        "num_ratings": "15 ratings",
+        "would_take_again": "0%",
+        "difficulty": "3.1"
+    },
+    {
+        "name": "Justine Calcagno",
+        "department": "Psychology",
+        "school": "Towson University",
+        "quality_rating": "4.0",
+        "num_ratings": "4 ratings",
+        "would_take_again": "75%",
+        "difficulty": "3.8"
+    }
+]
