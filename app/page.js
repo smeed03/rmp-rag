@@ -12,6 +12,39 @@ export default function Home() {
   ])
 
   const [message, setMessage] = useState("")
+
+// Added fields for uploading review
+const [reviewData, setReviewData] = useState({
+  professor: '',
+  subject: '',
+  review: '',
+  stars: ''
+});
+
+const handleInputChange = (e) => {
+  setReviewData({ ...reviewData, [e.target.name]: e.target.value });
+};
+const submitReview = async () => {
+  const response = await fetch('/api/upsert-review', {
+    method: "POST",
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(reviewData),
+  });
+
+  if (response.ok) {
+    console.log('Review successfully submitted!');
+    // Optionally reset the form after submission
+    setReviewData({ professor: '', subject: '', review: '', stars: '' });
+  } else {
+    console.error('Failed to submit the review.');
+  }
+};
+
+//end 
+
+
   const sendMessage = async () => {
     setMessages((messages) => [
       ...messages,
@@ -105,6 +138,44 @@ export default function Home() {
             Send
           </Button>
         </Stack>
+
+        {/* Section to Submit New Review*/}
+    <Box>
+      <Stack spacing={2}>
+        <TextField
+          label="Professor Name"
+          name="professor"
+          value={reviewData.professor}
+          onChange={handleInputChange}
+        />
+        <TextField
+          label="Subject"
+          name="subject"
+          value={reviewData.subject}
+          onChange={handleInputChange}
+        />
+        <TextField
+          label="Review"
+          name="review"
+          value={reviewData.review}
+          onChange={handleInputChange}
+          multiline
+        />
+        <TextField
+          label="Stars"
+          name="stars"
+          type="number"
+          value={reviewData.stars}
+          onChange={handleInputChange}
+        />
+        <Button variant="contained" onClick={submitReview}>
+          Submit Review
+        </Button>
+      </Stack>
+    </Box>
+
+
+    {/* End */}
       </Stack>
     </Box>
   )
